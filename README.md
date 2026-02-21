@@ -51,4 +51,10 @@ Example:
 
 --delay-ms 300
 
+## Quick start auth flow
+Run CLI with Telegram API credentials, then follow prompts for code/password:
+
+```bash
+./gradlew run --args="--channel @xxx --out export/xxx --tdlib data/tdlib --api-id <api_id> --api-hash <api_hash> --phone +123456789"
+```
 
